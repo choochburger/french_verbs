@@ -457,5 +457,54 @@ window.Verbs = [
                 { q: "Vous",       a: "veuillez" }
             ]
         }]
+    },
+
+
+    {
+        verb: "Venir",
+        tenses: [{
+            tense: "Présent",
+            conjugations: [
+                { q: "Je",         a: "viens" },
+                { q: "Tu",         a: "viens" },
+                { q: "Il/Elle/On", a: "vient" },
+                { q: "Nous",       a: "venons" },
+                { q: "Vous",       a: "venez" },
+                { q: "Ils/Elles",  a: "viennent" }
+            ]
+        }, {
+            tense: "Future simple",
+            conjugations: [
+                { q: "Je",         a: "viendrai" },
+                { q: "Tu",         a: "viendras" },
+                { q: "Il/Elle/On", a: "viendra" },
+                { q: "Nous",       a: "viendrons" },
+                { q: "Vous",       a: "viendrez" },
+                { q: "Ils/Elles",  a: "viendront" }
+            ]
+        }, {
+            tense: "Passé composé",
+            conjugations: [
+                { q: "Verbe",           a: "être" },
+                { q: "Participe Passé", a: "venu" }
+            ]
+        }, {
+            tense: "Imparfait",
+            conjugations: [
+                { q: "Je",         a: "venais" },
+                { q: "Tu",         a: "venais" },
+                { q: "Il/Elle/On", a: "venait" },
+                { q: "Nous",       a: "venions" },
+                { q: "Vous",       a: "veniez" },
+                { q: "Ils/Elles",  a: "venaient" }
+            ]
+        }, {
+            tense: "Impératif",
+            conjugations: [
+                { q: "Tu",         a: "viens" },
+                { q: "Nous",       a: "venons" },
+                { q: "Vous",       a: "venez" }
+            ]
+        }]
     }
 ]
