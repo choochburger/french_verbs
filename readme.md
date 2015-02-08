@@ -1,1 +1,1 @@
-Quick lil' app for practicing common verb conjugations
+Quick n' very dirty lil' app for practicing verb conjugations
