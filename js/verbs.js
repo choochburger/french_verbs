@@ -241,5 +241,221 @@ window.Verbs = [
                 { q: "Vous",       a: "allez" }
             ]
         }]
+    },
+
+
+    {
+        verb: "Voir",
+        tenses: [{
+            tense: "Présent",
+            conjugations: [
+                { q: "Je",         a: "vois" },
+                { q: "Tu",         a: "vois" },
+                { q: "Il/Elle/On", a: "voit" },
+                { q: "Nous",       a: "voyons" },
+                { q: "Vous",       a: "voyez" },
+                { q: "Ils/Elles",  a: "voient" }
+            ]
+        }, {
+            tense: "Future simple",
+            conjugations: [
+                { q: "Je",         a: "verrai" },
+                { q: "Tu",         a: "verras" },
+                { q: "Il/Elle/On", a: "verra" },
+                { q: "Nous",       a: "verrons" },
+                { q: "Vous",       a: "verrez" },
+                { q: "Ils/Elles",  a: "verront" }
+            ]
+        }, {
+            tense: "Passé composé",
+            conjugations: [
+                { q: "Verbe",           a: "avoir" },
+                { q: "Participe Passé", a: "vu" }
+            ]
+        }, {
+            tense: "Imparfait",
+            conjugations: [
+                { q: "Je",         a: "voyais" },
+                { q: "Tu",         a: "voyais" },
+                { q: "Il/Elle/On", a: "voyait" },
+                { q: "Nous",       a: "voyions" },
+                { q: "Vous",       a: "voyiez" },
+                { q: "Ils/Elles",  a: "voyaient" }
+            ]
+        }, {
+            tense: "Impératif",
+            conjugations: [
+                { q: "Tu",         a: "vois" },
+                { q: "Nous",       a: "voyons" },
+                { q: "Vous",       a: "voyez" }
+            ]
+        }]
+    },
+
+
+    {
+        verb: "Savoir",
+        tenses: [{
+            tense: "Présent",
+            conjugations: [
+                { q: "Je",         a: "sais" },
+                { q: "Tu",         a: "sais" },
+                { q: "Il/Elle/On", a: "sait" },
+                { q: "Nous",       a: "savons" },
+                { q: "Vous",       a: "savez" },
+                { q: "Ils/Elles",  a: "savent" }
+            ]
+        }, {
+            tense: "Future simple",
+            conjugations: [
+                { q: "Je",         a: "saurai" },
+                { q: "Tu",         a: "sauras" },
+                { q: "Il/Elle/On", a: "saura" },
+                { q: "Nous",       a: "saurons" },
+                { q: "Vous",       a: "saurez" },
+                { q: "Ils/Elles",  a: "sauront" }
+            ]
+        }, {
+            tense: "Passé composé",
+            conjugations: [
+                { q: "Verbe",           a: "avoir" },
+                { q: "Participe Passé", a: "su" }
+            ]
+        }, {
+            tense: "Imparfait",
+            conjugations: [
+                { q: "Je",         a: "savais" },
+                { q: "Tu",         a: "savais" },
+                { q: "Il/Elle/On", a: "savait" },
+                { q: "Nous",       a: "savions" },
+                { q: "Vous",       a: "saviez" },
+                { q: "Ils/Elles",  a: "savaient" }
+            ]
+        }, {
+            tense: "Impératif",
+            conjugations: [
+                { q: "Tu",         a: "sache" },
+                { q: "Nous",       a: "sachons" },
+                { q: "Vous",       a: "sachez" }
+            ]
+        }]
+    },
+
+
+    {
+        verb: "Pouvoir",
+        tenses: [{
+            tense: "Présent",
+            conjugations: [
+                { q: "Je",         a: "peux" },
+                { q: "Tu",         a: "peux" },
+                { q: "Il/Elle/On", a: "peut" },
+                { q: "Nous",       a: "pouvons" },
+                { q: "Vous",       a: "pouvez" },
+                { q: "Ils/Elles",  a: "peuvent" }
+            ]
+        }, {
+            tense: "Future simple",
+            conjugations: [
+                { q: "Je",         a: "pourrai" },
+                { q: "Tu",         a: "pourras" },
+                { q: "Il/Elle/On", a: "pourra" },
+                { q: "Nous",       a: "pourrons" },
+                { q: "Vous",       a: "pourrez" },
+                { q: "Ils/Elles",  a: "pourront" }
+            ]
+        }, {
+            tense: "Passé composé",
+            conjugations: [
+                { q: "Verbe",           a: "avoir" },
+                { q: "Participe Passé", a: "pu" }
+            ]
+        }, {
+            tense: "Imparfait",
+            conjugations: [
+                { q: "Je",         a: "pouvais" },
+                { q: "Tu",         a: "pouvais" },
+                { q: "Il/Elle/On", a: "pouvait" },
+                { q: "Nous",       a: "pouvions" },
+                { q: "Vous",       a: "pouviez" },
+                { q: "Ils/Elles",  a: "pouvaient" }
+            ]
+        }]
+    },
+
+
+    {
+        verb: "Falloir",
+        tenses: [{
+            tense: "Présent",
+            conjugations: [
+                { q: "Il", a: "faut" }
+            ]
+        }, {
+            tense: "Future simple",
+            conjugations: [
+                { q: "Il", a: "faudra" }
+            ]
+        }, {
+            tense: "Passé composé",
+            conjugations: [
+                { q: "Verbe",           a: "avoir" },
+                { q: "Participe Passé", a: "fallu" }
+            ]
+        }, {
+            tense: "Imparfait",
+            conjugations: [
+                { q: "Il", a: "fallait" }
+            ]
+        }]
+    },
+
+
+    {
+        verb: "Vouloir",
+        tenses: [{
+            tense: "Présent",
+            conjugations: [
+                { q: "Je",         a: "veux" },
+                { q: "Tu",         a: "veux" },
+                { q: "Il/Elle/On", a: "veut" },
+                { q: "Nous",       a: "voulons" },
+                { q: "Vous",       a: "voulez" },
+                { q: "Ils/Elles",  a: "veulent" }
+            ]
+        }, {
+            tense: "Future simple",
+            conjugations: [
+                { q: "Je",         a: "voudrai" },
+                { q: "Tu",         a: "voudras" },
+                { q: "Il/Elle/On", a: "voudra" },
+                { q: "Nous",       a: "voudrons" },
+                { q: "Vous",       a: "voudrez" },
+                { q: "Ils/Elles",  a: "voudront" }
+            ]
+        }, {
+            tense: "Passé composé",
+            conjugations: [
+                { q: "Verbe",           a: "avoir" },
+                { q: "Participe Passé", a: "voulu" }
+            ]
+        }, {
+            tense: "Imparfait",
+            conjugations: [
+                { q: "Je",         a: "voulais" },
+                { q: "Tu",         a: "voulais" },
+                { q: "Il/Elle/On", a: "voulait" },
+                { q: "Nous",       a: "voulions" },
+                { q: "Vous",       a: "vouliez" },
+                { q: "Ils/Elles",  a: "voulaient" }
+            ]
+        }, {
+            tense: "Impératif",
+            conjugations: [
+                { q: "Tu",         a: "veuille" },
+                { q: "Nous",       a: "veuillons" },
+                { q: "Vous",       a: "veuillez" }
+            ]
+        }]
     }
 ]
