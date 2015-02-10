@@ -38,8 +38,10 @@
 
   <script id="verb" type="text/x-handlebars-template">
     {{#each this}}
-      <div class="container">
-        <h3>{{verb}}</h3>
+      <div class="container" id="{{verb}}">
+        <a href="#{{verb}}">
+          <h3>{{verb}}</h3>
+        </a>
         <hr>
         {{#each tenses}}
           <form class="form-horizontal col-md-3">
