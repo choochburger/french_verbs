@@ -98,6 +98,181 @@ window.Verbs = [
 
 
     {
+        verb: "Parler",
+        tenses: [{
+            tense: "Présent",
+            conjugations: [
+                { q: "Je",         a: "parle" },
+                { q: "Tu",         a: "parles" },
+                { q: "Il/Elle/On", a: "parle" },
+                { q: "Nous",       a: "parlons" },
+                { q: "Vous",       a: "parlez" },
+                { q: "Ils/Elles",  a: "parlent" }
+            ]
+        }, {
+            tense: "Future simple",
+            conjugations: [
+                { q: "Je",         a: "parlerai" },
+                { q: "Tu",         a: "parleras" },
+                { q: "Il/Elle/On", a: "parlera" },
+                { q: "Nous",       a: "parlerons" },
+                { q: "Vous",       a: "parlerez" },
+                { q: "Ils/Elles",  a: "parleront" }
+            ]
+        }, {
+            tense: "Passé composé",
+            conjugations: [
+                { q: "Verbe",           a: "avoir" },
+                { q: "Participe Passé", a: "parlé" }
+            ]
+        }, {
+            tense: "Imparfait",
+            conjugations: [
+                { q: "Je",         a: "parlais" },
+                { q: "Tu",         a: "parlais" },
+                { q: "Il/Elle/On", a: "parlait" },
+                { q: "Nous",       a: "parlions" },
+                { q: "Vous",       a: "parliez" },
+                { q: "Ils/Elles",  a: "parlaient" }
+            ]
+        }, {
+            tense: "Conditionnel",
+            conjugations: [
+                { q: "Je",         a: "parlerais" },
+                { q: "Tu",         a: "parlerais" },
+                { q: "Il/Elle/On", a: "parlerait" },
+                { q: "Nous",       a: "parlerions" },
+                { q: "Vous",       a: "parleriez" },
+                { q: "Ils/Elles",  a: "parleraient" }
+            ]
+        }, {
+            tense: "Impératif",
+            conjugations: [
+                { q: "Tu",         a: "parle" },
+                { q: "Nous",       a: "parlons" },
+                { q: "Vous",       a: "parlez" }
+            ]
+        }]
+    },
+
+
+    {
+        verb: "Dormir",
+        tenses: [{
+            tense: "Présent",
+            conjugations: [
+                { q: "Je",         a: "dors" },
+                { q: "Tu",         a: "dors" },
+                { q: "Il/Elle/On", a: "dort" },
+                { q: "Nous",       a: "dormons" },
+                { q: "Vous",       a: "dormez" },
+                { q: "Ils/Elles",  a: "dorment" }
+            ]
+        }, {
+            tense: "Future simple",
+            conjugations: [
+                { q: "Je",         a: "dormirai" },
+                { q: "Tu",         a: "dormiras" },
+                { q: "Il/Elle/On", a: "dormira" },
+                { q: "Nous",       a: "dormirons" },
+                { q: "Vous",       a: "dormirez" },
+                { q: "Ils/Elles",  a: "dormiront" }
+            ]
+        }, {
+            tense: "Passé composé",
+            conjugations: [
+                { q: "Verbe",           a: "avoir" },
+                { q: "Participe Passé", a: "dormi" }
+            ]
+        }, {
+            tense: "Imparfait",
+            conjugations: [
+                { q: "Je",         a: "dormais" },
+                { q: "Tu",         a: "dormais" },
+                { q: "Il/Elle/On", a: "dormait" },
+                { q: "Nous",       a: "dormions" },
+                { q: "Vous",       a: "dormiez" },
+                { q: "Ils/Elles",  a: "dormaient" }
+            ]
+        }, {
+            tense: "Conditionnel",
+            conjugations: [
+                { q: "Je",         a: "dormirais" },
+                { q: "Tu",         a: "dormirais" },
+                { q: "Il/Elle/On", a: "dormirait" },
+                { q: "Nous",       a: "dormirions" },
+                { q: "Vous",       a: "dormiriez" },
+                { q: "Ils/Elles",  a: "dormiraient" }
+            ]
+        }, {
+            tense: "Impératif",
+            conjugations: [
+                { q: "Tu",         a: "dors" },
+                { q: "Nous",       a: "dormons" },
+                { q: "Vous",       a: "dormez" }
+            ]
+        }]
+    },
+
+    {
+        verb: "Apprendre",
+        tenses: [{
+            tense: "Présent",
+            conjugations: [
+                { q: "Je",         a: "apprends" },
+                { q: "Tu",         a: "apprends" },
+                { q: "Il/Elle/On", a: "apprend" },
+                { q: "Nous",       a: "apprenons" },
+                { q: "Vous",       a: "apprenez" },
+                { q: "Ils/Elles",  a: "apprennent" }
+            ]
+        }, {
+            tense: "Future simple",
+            conjugations: [
+                { q: "Je",         a: "apprendrai" },
+                { q: "Tu",         a: "apprendras" },
+                { q: "Il/Elle/On", a: "apprendra" },
+                { q: "Nous",       a: "apprendrons" },
+                { q: "Vous",       a: "apprendrez" },
+                { q: "Ils/Elles",  a: "apprendront" }
+            ]
+        }, {
+            tense: "Passé composé",
+            conjugations: [
+                { q: "Verbe",           a: "avoir" },
+                { q: "Participe Passé", a: "appris" }
+            ]
+        }, {
+            tense: "Imparfait",
+            conjugations: [
+                { q: "Je",         a: "apprenais" },
+                { q: "Tu",         a: "apprenais" },
+                { q: "Il/Elle/On", a: "apprenait" },
+                { q: "Nous",       a: "apprenions" },
+                { q: "Vous",       a: "appreniez" },
+                { q: "Ils/Elles",  a: "apprenaient" }
+            ]
+        }, {
+            tense: "Conditionnel",
+            conjugations: [
+                { q: "Je",         a: "apprendrais" },
+                { q: "Tu",         a: "apprendrais" },
+                { q: "Il/Elle/On", a: "apprendrait" },
+                { q: "Nous",       a: "apprendrions" },
+                { q: "Vous",       a: "apprendriez" },
+                { q: "Ils/Elles",  a: "apprendraient" }
+            ]
+        }, {
+            tense: "Impératif",
+            conjugations: [
+                { q: "Tu",         a: "apprends" },
+                { q: "Nous",       a: "apprenons" },
+                { q: "Vous",       a: "apprenez" }
+            ]
+        }]
+    },
+
+    {
         verb: "Faire",
         tenses: [{
             tense: "Présent",
@@ -508,3 +683,68 @@ window.Verbs = [
         }]
     }
 ]
+
+/*
+
+TEMPLATE
+
+
+    {
+        verb: "",
+        tenses: [{
+            tense: "Présent",
+            conjugations: [
+                { q: "Je",         a: "" },
+                { q: "Tu",         a: "" },
+                { q: "Il/Elle/On", a: "" },
+                { q: "Nous",       a: "" },
+                { q: "Vous",       a: "" },
+                { q: "Ils/Elles",  a: "" }
+            ]
+        }, {
+            tense: "Future simple",
+            conjugations: [
+                { q: "Je",         a: "" },
+                { q: "Tu",         a: "" },
+                { q: "Il/Elle/On", a: "" },
+                { q: "Nous",       a: "" },
+                { q: "Vous",       a: "" },
+                { q: "Ils/Elles",  a: "" }
+            ]
+        }, {
+            tense: "Passé composé",
+            conjugations: [
+                { q: "Verbe",           a: "" },
+                { q: "Participe Passé", a: "" }
+            ]
+        }, {
+            tense: "Imparfait",
+            conjugations: [
+                { q: "Je",         a: "" },
+                { q: "Tu",         a: "" },
+                { q: "Il/Elle/On", a: "" },
+                { q: "Nous",       a: "" },
+                { q: "Vous",       a: "" },
+                { q: "Ils/Elles",  a: "" }
+            ]
+        }, {
+            tense: "Conditionnel",
+            conjugations: [
+                { q: "Je",         a: "" },
+                { q: "Tu",         a: "" },
+                { q: "Il/Elle/On", a: "" },
+                { q: "Nous",       a: "" },
+                { q: "Vous",       a: "" },
+                { q: "Ils/Elles",  a: "" }
+            ]
+        }, {
+            tense: "Impératif",
+            conjugations: [
+                { q: "Tu",         a: "" },
+                { q: "Nous",       a: "" },
+                { q: "Vous",       a: "" }
+            ]
+        }]
+    }
+
+*/
