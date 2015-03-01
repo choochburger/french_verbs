@@ -38,6 +38,16 @@ window.Verbs = [
                 { q: "Ils/Elles",  a: "étaient" }
             ]
         }, {
+            tense: "Conditionnel",
+            conjugations: [
+                { q: "Je",         a: "serais" },
+                { q: "Tu",         a: "serais" },
+                { q: "Il/Elle/On", a: "serait" },
+                { q: "Nous",       a: "serions" },
+                { q: "Vous",       a: "seriez" },
+                { q: "Ils/Elles",  a: "seraient" }
+            ]
+        }, {
             tense: "Impératif",
             conjugations: [
                 { q: "Tu",         a: "sois" },
@@ -85,6 +95,16 @@ window.Verbs = [
                 { q: "Nous",       a: "avions" },
                 { q: "Vous",       a: "aviez" },
                 { q: "Ils/Elles",  a: "avaient" }
+            ]
+        }, {
+            tense: "Conditionnel",
+            conjugations: [
+                { q: "Je",         a: "aurais" },
+                { q: "Tu",         a: "aurais" },
+                { q: "Il/Elle/On", a: "aurait" },
+                { q: "Nous",       a: "aurions" },
+                { q: "Vous",       a: "auriez" },
+                { q: "Ils/Elles",  a: "auraient" }
             ]
         }, {
             tense: "Impératif",
@@ -311,6 +331,16 @@ window.Verbs = [
                 { q: "Ils/Elles",  a: "faisaient" }
             ]
         }, {
+            tense: "Conditionnel",
+            conjugations: [
+                { q: "Je",         a: "ferais" },
+                { q: "Tu",         a: "ferais" },
+                { q: "Il/Elle/On", a: "ferait" },
+                { q: "Nous",       a: "ferions" },
+                { q: "Vous",       a: "feriez" },
+                { q: "Ils/Elles",  a: "feraient" }
+            ]
+        }, {
             tense: "Impératif",
             conjugations: [
                 { q: "Tu",         a: "fais" },
@@ -358,6 +388,16 @@ window.Verbs = [
                 { q: "Nous",       a: "disions" },
                 { q: "Vous",       a: "disiez" },
                 { q: "Ils/Elles",  a: "disaient" }
+            ]
+        }, {
+            tense: "Conditionnel",
+            conjugations: [
+                { q: "Je",         a: "dirais" },
+                { q: "Tu",         a: "dirais" },
+                { q: "Il/Elle/On", a: "dirait" },
+                { q: "Nous",       a: "dirions" },
+                { q: "Vous",       a: "diriez" },
+                { q: "Ils/Elles",  a: "diraient" }
             ]
         }, {
             tense: "Impératif",
@@ -409,6 +449,16 @@ window.Verbs = [
                 { q: "Ils/Elles",  a: "allaient" }
             ]
         }, {
+            tense: "Conditionnel",
+            conjugations: [
+                { q: "Je",         a: "irais" },
+                { q: "Tu",         a: "irais" },
+                { q: "Il/Elle/On", a: "irait" },
+                { q: "Nous",       a: "irions" },
+                { q: "Vous",       a: "iriez" },
+                { q: "Ils/Elles",  a: "iraient" }
+            ]
+        }, {
             tense: "Impératif",
             conjugations: [
                 { q: "Tu",         a: "va" },
@@ -456,6 +506,16 @@ window.Verbs = [
                 { q: "Nous",       a: "voyions" },
                 { q: "Vous",       a: "voyiez" },
                 { q: "Ils/Elles",  a: "voyaient" }
+            ]
+        }, {
+            tense: "Conditionnel",
+            conjugations: [
+                { q: "Je",         a: "verrais" },
+                { q: "Tu",         a: "verrais" },
+                { q: "Il/Elle/On", a: "verrait" },
+                { q: "Nous",       a: "verrions" },
+                { q: "Vous",       a: "verriez" },
+                { q: "Ils/Elles",  a: "verraient" }
             ]
         }, {
             tense: "Impératif",
@@ -507,6 +567,16 @@ window.Verbs = [
                 { q: "Ils/Elles",  a: "savaient" }
             ]
         }, {
+            tense: "Conditionnel",
+            conjugations: [
+                { q: "Je",         a: "saurais" },
+                { q: "Tu",         a: "saurais" },
+                { q: "Il/Elle/On", a: "saurait" },
+                { q: "Nous",       a: "saurions" },
+                { q: "Vous",       a: "sauriez" },
+                { q: "Ils/Elles",  a: "sauraient" }
+            ]
+        }, {
             tense: "Impératif",
             conjugations: [
                 { q: "Tu",         a: "sache" },
@@ -554,6 +624,16 @@ window.Verbs = [
                 { q: "Nous",       a: "pouvions" },
                 { q: "Vous",       a: "pouviez" },
                 { q: "Ils/Elles",  a: "pouvaient" }
+            ]
+        }, {
+            tense: "Conditionnel",
+            conjugations: [
+                { q: "Je",         a: "pourrais" },
+                { q: "Tu",         a: "pourrais" },
+                { q: "Il/Elle/On", a: "pourrait" },
+                { q: "Nous",       a: "pourrions" },
+                { q: "Vous",       a: "pourriez" },
+                { q: "Ils/Elles",  a: "pourraient" }
             ]
         }]
     },
@@ -625,6 +705,16 @@ window.Verbs = [
                 { q: "Ils/Elles",  a: "voulaient" }
             ]
         }, {
+            tense: "Conditionnel",
+            conjugations: [
+                { q: "Je",         a: "voudrais" },
+                { q: "Tu",         a: "voudrais" },
+                { q: "Il/Elle/On", a: "voudrait" },
+                { q: "Nous",       a: "voudrions" },
+                { q: "Vous",       a: "voudriez" },
+                { q: "Ils/Elles",  a: "voudraient" }
+            ]
+        }, {
             tense: "Impératif",
             conjugations: [
                 { q: "Tu",         a: "veuille" },
@@ -672,6 +762,16 @@ window.Verbs = [
                 { q: "Nous",       a: "venions" },
                 { q: "Vous",       a: "veniez" },
                 { q: "Ils/Elles",  a: "venaient" }
+            ]
+        }, {
+            tense: "Conditionnel",
+            conjugations: [
+                { q: "Je",         a: "viendrais" },
+                { q: "Tu",         a: "viendrais" },
+                { q: "Il/Elle/On", a: "viendrait" },
+                { q: "Nous",       a: "viendrions" },
+                { q: "Vous",       a: "viendriez" },
+                { q: "Ils/Elles",  a: "viendraient" }
             ]
         }, {
             tense: "Impératif",
