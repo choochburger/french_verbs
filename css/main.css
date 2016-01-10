@@ -1,3 +1,15 @@
 .verb_container-input {
     min-width: 120px;
 }
+
+.has-success input {
+    background: #A8CCA0;
+    color: transparent;
+    cursor: pointer;
+    opacity: 0.25;
+}
+
+.has-success input:hover {
+    color: inherit;
+    opacity: 1;
+}
