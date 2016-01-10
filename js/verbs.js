@@ -54,6 +54,16 @@ window.Verbs = [
                 { q: "Nous",       a: "soyons" },
                 { q: "Vous",       a: "soyez" }
             ]
+        }, {
+            tense: "Subjonctif",
+            conjugations: [
+                { q: "Je",         a: "sois" },
+                { q: "Tu",         a: "sois" },
+                { q: "Il/Elle/On", a: "soit" },
+                { q: "Nous",       a: "soyons" },
+                { q: "Vous",       a: "soyez" },
+                { q: "Ils/Elles",  a: "soient" }
+            ]
         }]
     },
 
@@ -112,6 +122,16 @@ window.Verbs = [
                 { q: "Tu",         a: "aie" },
                 { q: "Nous",       a: "ayons" },
                 { q: "Vous",       a: "ayez" }
+            ]
+        }, {
+            tense: "Subjonctif",
+            conjugations: [
+                { q: "Je",         a: "aie" },
+                { q: "Tu",         a: "aies" },
+                { q: "Il/Elle/On", a: "ait" },
+                { q: "Nous",       a: "ayons" },
+                { q: "Vous",       a: "ayez" },
+                { q: "Ils/Elles",  a: "aient" }
             ]
         }]
     },
@@ -172,6 +192,16 @@ window.Verbs = [
                 { q: "Nous",       a: "parlons" },
                 { q: "Vous",       a: "parlez" }
             ]
+        }, {
+            tense: "Subjonctif",
+            conjugations: [
+                { q: "Je",         a: "parle" },
+                { q: "Tu",         a: "parles" },
+                { q: "Il/Elle/On", a: "parle" },
+                { q: "Nous",       a: "parlions" },
+                { q: "Vous",       a: "parliez" },
+                { q: "Ils/Elles",  a: "parlent" }
+            ]
         }]
     },
 
@@ -231,6 +261,16 @@ window.Verbs = [
                 { q: "Nous",       a: "dormons" },
                 { q: "Vous",       a: "dormez" }
             ]
+        }, {
+            tense: "Subjonctif",
+            conjugations: [
+                { q: "Je",         a: "dorme" },
+                { q: "Tu",         a: "dormes" },
+                { q: "Il/Elle/On", a: "dorme" },
+                { q: "Nous",       a: "dormions" },
+                { q: "Vous",       a: "dormiez" },
+                { q: "Ils/Elles",  a: "dorment" }
+            ]
         }]
     },
 
@@ -289,6 +329,16 @@ window.Verbs = [
                 { q: "Nous",       a: "apprenons" },
                 { q: "Vous",       a: "apprenez" }
             ]
+        }, {
+            tense: "Subjonctif",
+            conjugations: [
+                { q: "Je",         a: "apprenne" },
+                { q: "Tu",         a: "apprennes" },
+                { q: "Il/Elle/On", a: "apprenne" },
+                { q: "Nous",       a: "apprenions" },
+                { q: "Vous",       a: "appreniez" },
+                { q: "Ils/Elles",  a: "apprennent" }
+            ]
         }]
     },
 
@@ -346,6 +396,16 @@ window.Verbs = [
                 { q: "Tu",         a: "fais" },
                 { q: "Nous",       a: "faisons" },
                 { q: "Vous",       a: "faites" }
+            ]
+        }, {
+            tense: "Subjonctif",
+            conjugations: [
+                { q: "Je",         a: "fasse" },
+                { q: "Tu",         a: "fasses" },
+                { q: "Il/Elle/On", a: "fasse" },
+                { q: "Nous",       a: "fassions" },
+                { q: "Vous",       a: "fassiez" },
+                { q: "Ils/Elles",  a: "fassent" }
             ]
         }]
     },
@@ -406,6 +466,16 @@ window.Verbs = [
                 { q: "Nous",       a: "disons" },
                 { q: "Vous",       a: "dites" }
             ]
+        }, {
+            tense: "Subjonctif",
+            conjugations: [
+                { q: "Je",         a: "dise" },
+                { q: "Tu",         a: "dises" },
+                { q: "Il/Elle/On", a: "dise" },
+                { q: "Nous",       a: "disions" },
+                { q: "Vous",       a: "disiez" },
+                { q: "Ils/Elles",  a: "disent" }
+            ]
         }]
     },
 
@@ -464,6 +534,16 @@ window.Verbs = [
                 { q: "Tu",         a: "va" },
                 { q: "Nous",       a: "allons" },
                 { q: "Vous",       a: "allez" }
+            ]
+        }, {
+            tense: "Subjonctif",
+            conjugations: [
+                { q: "Je",         a: "aille" },
+                { q: "Tu",         a: "ailles" },
+                { q: "Il/Elle/On", a: "aille" },
+                { q: "Nous",       a: "allions" },
+                { q: "Vous",       a: "alliez" },
+                { q: "Ils/Elles",  a: "aillent" }
             ]
         }]
     },
@@ -524,6 +604,16 @@ window.Verbs = [
                 { q: "Nous",       a: "voyons" },
                 { q: "Vous",       a: "voyez" }
             ]
+        }, {
+            tense: "Subjonctif",
+            conjugations: [
+                { q: "Je",         a: "voie" },
+                { q: "Tu",         a: "voies" },
+                { q: "Il/Elle/On", a: "voie" },
+                { q: "Nous",       a: "voyions" },
+                { q: "Vous",       a: "voyiez" },
+                { q: "Ils/Elles",  a: "voient" }
+            ]
         }]
     },
 
@@ -583,6 +673,16 @@ window.Verbs = [
                 { q: "Nous",       a: "sachons" },
                 { q: "Vous",       a: "sachez" }
             ]
+        }, {
+            tense: "Subjonctif",
+            conjugations: [
+                { q: "Je",         a: "sache" },
+                { q: "Tu",         a: "saches" },
+                { q: "Il/Elle/On", a: "sache" },
+                { q: "Nous",       a: "sachions" },
+                { q: "Vous",       a: "sachiez" },
+                { q: "Ils/Elles",  a: "sachent" }
+            ]
         }]
     },
 
@@ -635,6 +735,16 @@ window.Verbs = [
                 { q: "Vous",       a: "pourriez" },
                 { q: "Ils/Elles",  a: "pourraient" }
             ]
+        }, {
+            tense: "Subjonctif",
+            conjugations: [
+                { q: "Je",         a: "puisse" },
+                { q: "Tu",         a: "puisses" },
+                { q: "Il/Elle/On", a: "puisse" },
+                { q: "Nous",       a: "puissions" },
+                { q: "Vous",       a: "puisiez" },
+                { q: "Ils/Elles",  a: "puissent" }
+            ]
         }]
     },
 
@@ -661,6 +771,11 @@ window.Verbs = [
             tense: "Imparfait",
             conjugations: [
                 { q: "Il", a: "fallait" }
+            ]
+        }, {
+            tense: "Subjonctif",
+            conjugations: [
+                { q: "Il/Elle/On", a: "faille" }
             ]
         }]
     },
@@ -721,6 +836,16 @@ window.Verbs = [
                 { q: "Nous",       a: "veuillons" },
                 { q: "Vous",       a: "veuillez" }
             ]
+        }, {
+            tense: "Subjonctif",
+            conjugations: [
+                { q: "Je",         a: "veuille" },
+                { q: "Tu",         a: "veuilles" },
+                { q: "Il/Elle/On", a: "veuille" },
+                { q: "Nous",       a: "voulions" },
+                { q: "Vous",       a: "vouliez" },
+                { q: "Ils/Elles",  a: "veuillent" }
+            ]
         }]
     },
 
@@ -779,6 +904,16 @@ window.Verbs = [
                 { q: "Tu",         a: "viens" },
                 { q: "Nous",       a: "venons" },
                 { q: "Vous",       a: "venez" }
+            ]
+        }, {
+            tense: "Subjonctif",
+            conjugations: [
+                { q: "Je",         a: "vienne" },
+                { q: "Tu",         a: "viennes" },
+                { q: "Il/Elle/On", a: "vienne" },
+                { q: "Nous",       a: "venions" },
+                { q: "Vous",       a: "veniez" },
+                { q: "Ils/Elles",  a: "viennent" }
             ]
         }]
     }
@@ -843,6 +978,16 @@ TEMPLATE
                 { q: "Tu",         a: "" },
                 { q: "Nous",       a: "" },
                 { q: "Vous",       a: "" }
+            ]
+        }, {
+            tense: "Subjonctif",
+            conjugations: [
+                { q: "Je",         a: "" },
+                { q: "Tu",         a: "" },
+                { q: "Il/Elle/On", a: "" },
+                { q: "Nous",       a: "" },
+                { q: "Vous",       a: "" },
+                { q: "Ils/Elles",  a: "" }
             ]
         }]
     }
