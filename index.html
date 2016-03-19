@@ -22,14 +22,34 @@
         <div class="navbar-header">
           <a class="navbar-brand" href="#">Verb practice</a>
         </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Options <span class="caret"></span></a>
+            <form class="dropdown-menu">
+              <div class="checkbox">
+                <label><input class="option" type="checkbox" value="scramble_verbs">Scramble verbs</label>
+              </div>
+              <div class="checkbox">
+                <label><input class="option" type="checkbox" value="scramble_tenses">Scramble tenses</label>
+              </div>
+              <div class="checkbox">
+                <label><input class="option" type="checkbox" value="single_reveal">Reveal one at a time</label>
+              </div>
+              <button class="reload">Reload</button></li>
+            </form>
+          </li>
+        </ul>
       </div>
     </nav>
 
-    <div id="main" class="container"></div>
+    <div id="main" class="container">
+      <!-- Verbs render here -->
+    </div>
 
     <script src="js/vendor/browser-polyfill.js"></script>
     <script src="js/vendor/jquery-1.11.2.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/lodash.js"></script>
     <script src="js/vendor/handlebars.js"></script>
 
     <script src="js/verbs.js"></script>

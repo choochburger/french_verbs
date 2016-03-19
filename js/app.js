@@ -1,6 +1,24 @@
 $(function() {
+    var verbs = window.Verbs;
+
+    // Process options
+    var url = window.location.search;
+    var scrambleVerbs  = (url.indexOf('scramble_verbs=true') > -1);
+    var scrambleTenses = (url.indexOf('scramble_tenses=true') > -1);
+    var singleReveal   = (url.indexOf('single_reveal=true') > -1);
+
+    if (scrambleVerbs) {
+        verbs = _.shuffle(verbs);
+    }
+
+    if (scrambleTenses) {
+        verbs.forEach(function(verb) {
+            verb.tenses = _.shuffle(verb.tenses);
+        });
+    }
+
     var template = Handlebars.compile( $('#verb').html() );
-    var html = template(window.Verbs);
+    var html = template(verbs);
     $('#main').html(html);
 
     $('.btn-check').on('click', function(e) {
@@ -26,11 +44,32 @@ $(function() {
                 $form.data('attempts', numAttempts + 1);
 
                 if (numAttempts >= 5) {
-                    $input.val(answer);
+                    var shouldReveal = !singleReveal || (singleReveal && $input.is(':focus'));
+                    if (shouldReveal) {
+                        $input.val(answer);
+                    }
                 }
             }
         });
 
+        return false;
+    });
+
+    $('.option').on('click', function(e) {
+        e.stopPropagation();
+    });
+
+    $('.reload').on('click', function(e) {
+        e.stopPropagation();
+
+        var $options = $('.option:checked');
+        var params = {};
+        $options.each(function() {
+            var key = $(this).val();
+            params[key] = true;
+        });
+        var queryStr = $.param(params);
+        window.location.search = queryStr;
         return false;
     });
 });

@@ -13,3 +13,8 @@
     color: inherit;
     opacity: 1;
 }
+
+.dropdown-menu {
+    min-width: 180px;
+    padding: 12px;
+}
