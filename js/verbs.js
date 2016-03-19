@@ -742,7 +742,7 @@ window.Verbs = [
                 { q: "Tu",         a: "puisses" },
                 { q: "Il/Elle/On", a: "puisse" },
                 { q: "Nous",       a: "puissions" },
-                { q: "Vous",       a: "puisiez" },
+                { q: "Vous",       a: "puissiez" },
                 { q: "Ils/Elles",  a: "puissent" }
             ]
         }]
